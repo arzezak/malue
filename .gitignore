@@ -1,0 +1,10 @@
+/.bundle/
+/.rubocop.yml
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/fixtures/
+/pkg/
+/spec/reports/
+/tmp/
