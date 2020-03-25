@@ -24,7 +24,10 @@ $ gem install malue
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+>> Malue.average "Martin 00015m"
+=> 100071.5444
+```
 
 ## Development
 

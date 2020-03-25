@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Malue::VERSION
   spec.authors       = ["Ariel Rzezak"]
   spec.email         = ["arzezak@gmail.com"]
-  spec.summary       = "Query MercadoLibre's product's prices."
+  spec.summary       = "Query MercadoLibre's products prices."
   spec.description   = "Find out the selling price for a given product in ML."
   spec.homepage      = "https://github.com/arzezak/malue"
   spec.license       = "MIT"

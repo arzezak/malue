@@ -38,12 +38,12 @@ module Malue
       JSON.parse(response.body)
     end
 
-    def response
-      @response ||= Net::HTTP.get_response(uri)
-    end
-
     def fetch_results
       body.fetch("results").map(&Item.method(:new))
+    end
+
+    def response
+      @response ||= Net::HTTP.get_response(uri)
     end
 
     def uri
